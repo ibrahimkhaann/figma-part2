@@ -172,8 +172,6 @@ color: red;
     display: flex;
     justify-content: space-between;
     width: 100%;
-
-    flex-wrap: wrap;
 }
 .bodyitempart{
 width: 22%;
@@ -216,7 +214,7 @@ position: relative;
 }
 .bodyleft h5{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     color: #B0B0B0;
 }
 .bodyleft del{
@@ -234,6 +232,46 @@ position: relative;
     right: 20px;
     transition: .4s;
 
+}
+.color2{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+     border-radius: 50%;
+     background-color:#2EC1ACE9;
+     top: 20px;
+     right: 20px;
+     transition: .4s;
+}
+.color3{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+     border-radius: 50%;
+     background-color:#2EC1ACE9;
+     top: 20px;
+     right: 20px;
+     transition: .4s;
+}
+.color4{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+     border-radius: 50%;
+     background-color:#2EC1ACE9;
+     top: 20px;
+     right: 20px;
+     transition: .4s; 
+}
+.color5{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+     border-radius: 50%;
+     background-color:#2EC1ACE9;
+     top: 20px;
+     right: 20px;
+     transition: .4s;
 }
 .badges h3{
 position: absolute;
