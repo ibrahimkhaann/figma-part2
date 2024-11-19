@@ -1,0 +1,301 @@
+
+    /* all common css start  */
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: o;
+    padding: o;
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* all common css end  */
+
+/* top header part start  */
+#topHeaderpart{
+    background-color:#ffff;
+}
+.topHeaderFlex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 33px;
+}
+.topHeadermenuu1 ul li{
+    display: inline-block;
+}
+.topHeadermenuu1 ul li a{
+padding: 0 35px;
+color: #000000;
+font-size: 16px;
+font-weight: 500;
+transition: .4s;
+}
+.topHeadermenuu1 ul li a:hover{
+    color:red;
+}
+.topHeaderIcon ul li{
+    display: inline-block;
+}
+.topHeaderIcon ul li a i{
+    padding: 0 25px;
+    color: #000000;
+    transition: .4s;
+}
+.topHeaderIcon ul li a i:hover{
+color: red;
+}
+/* top header part end */
+
+/* header part start  */
+#headerPartStart{
+}
+.backkgroundimg{
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background:url(../css/images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.shopPage{
+    text-align: center;
+}
+.shopPage h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+.shopbuttonFlex{
+    display: flex;
+    padding-left: 602px;
+    padding-top: 15px;
+}
+.buttonshop h3{
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.buttonicon h4{
+ padding-left: 10px;
+ font-size: 16px;
+ font-weight: 400;
+ color: #000000;
+}
+.buttonicon{
+    padding-top: 7px;
+}
+
+/* header part start  */
+#nextpage{
+    background-color: #F9F1E7;
+    
+}
+.nextpageFlex{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.nextpagesicon{
+    display: flex;
+   
+}
+.nextpagesicon h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 13px;
+    padding-top: 3px;
+
+}
+.nextpagesicon i{
+    font-size: 18px;
+    padding-top: 2px;
+}
+.nextpagewarp{
+   padding: 50px 0;
+   
+ 
+}
+.nextpagedistance{
+    padding-left: 30px;
+}
+.paddingleft{
+    padding-left: 27px;
+}
+.nextpageleft{
+    padding-left: 30px;
+   
+   
+}
+.dag{
+    height: 50px;
+    width: 2px;
+    background-color: red;
+    position: absolute;
+    padding-top: -10px;
+}
+.writeleft{
+    padding-left: 20px;
+}
+
+/* kichu bakkkki ache */
+
+/* header part end */
+
+/* .body part start  */
+#bodypartstart{
+    padding-bottom: 300px;
+}
+.bodypartFlex{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    flex-wrap: wrap;
+}
+.bodyitempart{
+width: 22%;
+position: relative;
+}
+.bodyimg img{
+    width: 100%;
+    display: block;
+    
+}
+
+.bodycolor{
+    background-color: #F4F5F7;
+}
+.bodycolorWrite{
+    padding: 20px;
+}
+.bodycolorWrite h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.bodywrite2{
+    padding-top: 15px;
+}
+.bodywrite2 h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #898989;
+}
+.bodyFlex{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+.bodyleft h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.bodyleft h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #B0B0B0;
+}
+.bodyleft del{
+    font-size: 18px;
+    font-weight: 600;
+    color: #B0B0B0;
+}
+.badges{
+    position: absolute;
+   height: 50px;
+   width: 50px;
+    border-radius: 50%;
+    background-color:#E97171;
+    top: 20px;
+    right: 20px;
+    transition: .4s;
+
+}
+.badges h3{
+position: absolute;
+top: 50%;
+left: 50%;
+color: #FFFFFF;
+transform: translate(-50%,-50%);
+font-size: 16px;
+font-weight: 500;
+
+
+}
+ .bodyoverly{
+    background-color: hsla(0, 0%, 0%, 0.50);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+
+} 
+.overlywright{
+   padding-top: 60%;
+   padding-left: 15%;
+}
+.overlywright a{
+    padding: 19px 57px;
+    background-color: #FFFFFF;
+    color: #B88E2F;
+    font-size: 16px;
+    font-weight: 600;
+}
+.bodyoverlyFlex{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 36px;
+}
+.bodyoverlypart i{
+    font-size: 15px;
+   
+    color: #FFFFFF;
+}
+.disflex{
+    display: flex;
+}
+.disflex h3{
+padding-top: 6px;
+padding-left: 5px;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 600;
+}
+.bodyitempart:hover .bodyoverly{
+    visibility: visible;
+    opacity: 1;
+}
+.bodyitempart:hover .badges{
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* .body part end */
